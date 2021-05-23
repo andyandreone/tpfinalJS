@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0, 
+        "nombre": "Muzzarella",
+        "precio": 450, 
+        "cantidad": ""
+    },
+    {
+        "id": 1, 
+        "nombre": "Doble Muzzarella",
+        "precio": 550,
+        "cantidad": ""
+    
+    },
+    {
+        "id": 2, 
+        "nombre": "Muzzarella con salchichas", 
+        "precio": 530, 
+        "cantidad": ""},
+        
+    {
+        "id": 3, 
+        "nombre": "Muzzarella y huevo", 
+        "precio": 520, 
+        "cantidad": ""},
+    {"id": 4, "nombre": "Muzzarella con morron", "precio": 540, "cantidad": ""},
+    {"id": 5, "nombre": "Muzzarella con papas pay", "precio": 510, "cantidad": ""},
+    {"id": 6, "nombre": "Americana", "precio": 590, "cantidad": ""},
+    {"id": 7, "nombre": "Jamon", "precio": 550, "cantidad": ""},
+    {"id": 8, "nombre": "Jamon y huevo", "precio": 620, "cantidad": ""},
+    {"id": 9, "nombre": "Jamon y morron", "precio": 640, "cantidad": ""},
+    {"id": 10, "nombre": "Jamon y anana", "precio": 730, "cantidad": ""},
+    {"id": 11, "nombre": "Jamon y provolone", "precio": 670, "cantidad": ""},
+    {"id": 12, "nombre": "Jamon y roquefort", "precio": 670, "cantidad": ""},
+    {"id": 13, "nombre": "Panceta", "precio": 600, "cantidad": ""},
+    {"id": 14, "nombre": "Panceta y huevo", "precio": 670, "cantidad": ""},
+    {"id": 15, "nombre": "Panceta y morron", "precio": 690, "cantidad": ""}
+    ]
