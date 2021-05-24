@@ -10,6 +10,9 @@ h1 {
   padding: 20px 0;
   text-transform: uppercase; }
 
+.btn {
+  margin: 5px; }
+
 .producto {
   margin: 7px;
   border: 1px solid #3d3838;
@@ -58,6 +61,8 @@ h1 {
     list-style: none;
     background-color: white;
     padding: 10px; }
+    #compra #listaCompra > div:hover {
+      border: 2px solid gray; }
     #compra #listaCompra > div .btn-danger {
       width: 20px;
       font-size: 8px;

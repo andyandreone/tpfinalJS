@@ -69,7 +69,11 @@ function cargarCarrito(operacion){
                     $('#comprar').click(()=>{
                         $('#compra').css("display","none");
                         $('#compra').fadeIn();
-                        $('#compra').html('<div class="ticket"><p>Completa tus datos para confirmar el pedido</p><input type="name" class="form-control" id="nombre" placeholder="Ingrese su nombre"><input id="direccion" type="text" class="form-control" placeholder="Ingrese la direccion de envio"><button id="continuarCompra" class="btn btn-outline-success">Continuar Compra</button></div>')
+                        $('#compra').html('<div class="ticket"><p>Completa tus datos para confirmar el pedido</p><input type="name" class="form-control" id="nombre" placeholder="Ingrese su nombre"><input id="direccion" type="text" class="form-control" placeholder="Ingrese la direccion de envio"><button id="atras" class="btn btn-secondary">Atras</button><button id="continuarCompra" class="btn btn-outline-success">Continuar Compra</button></div>')
+                        $('#atras').click(()=>{
+                           
+                           
+                        })
                         //Accion al apretar el boton continuar compra
                         $('#continuarCompra').click(()=>{
                             let nombre = $("#nombre").val();
@@ -110,7 +114,7 @@ function cargarCarrito(operacion){
                     $(`#itemCarrito${i}`).css("display","none");
                     $(`#itemCarrito${i}`).fadeIn();
                 }      
-                
+                //Accion al elimnar producto
                 $(`#elm${i}`).click(function(){
                     storedCarrito.splice(producto.posicion,1);
                     sessionStorage.setItem("carrito", JSON.stringify(storedCarrito));
