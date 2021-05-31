@@ -2,37 +2,41 @@
     {
         "id": 0, 
         "nombre": "Muzzarella",
+        "image": "0.png",
         "precio": 450, 
         "cantidad": ""
     },
     {
         "id": 1, 
-        "nombre": "Doble Muzzarella",
+        "nombre": "Napolitana",
+        "image": "1.png",
         "precio": 550,
         "cantidad": ""
     
     },
     {
         "id": 2, 
-        "nombre": "Muzzarella con salchichas", 
+        "nombre": "Salame y aceitunas",
+        "image": "2.png", 
         "precio": 530, 
         "cantidad": ""},
         
     {
         "id": 3, 
         "nombre": "Muzzarella y huevo", 
+        "image": "3.png",
         "precio": 520, 
         "cantidad": ""},
-    {"id": 4, "nombre": "Muzzarella con morron", "precio": 540, "cantidad": ""},
-    {"id": 5, "nombre": "Muzzarella con papas pay", "precio": 510, "cantidad": ""},
-    {"id": 6, "nombre": "Americana", "precio": 590, "cantidad": ""},
-    {"id": 7, "nombre": "Jamon", "precio": 550, "cantidad": ""},
-    {"id": 8, "nombre": "Jamon y huevo", "precio": 620, "cantidad": ""},
-    {"id": 9, "nombre": "Jamon y morron", "precio": 640, "cantidad": ""},
-    {"id": 10, "nombre": "Jamon y anana", "precio": 730, "cantidad": ""},
-    {"id": 11, "nombre": "Jamon y provolone", "precio": 670, "cantidad": ""},
-    {"id": 12, "nombre": "Jamon y roquefort", "precio": 670, "cantidad": ""},
-    {"id": 13, "nombre": "Panceta", "precio": 600, "cantidad": ""},
-    {"id": 14, "nombre": "Panceta y huevo", "precio": 670, "cantidad": ""},
-    {"id": 15, "nombre": "Panceta y morron", "precio": 690, "cantidad": ""}
+    {"id": 4, "nombre": "Primavera","image": "4.png", "precio": 540, "cantidad": ""},
+    {"id": 5, "nombre": "Muzzarella y hongos","image": "5.png", "precio": 510, "cantidad": ""},
+    {"id": 6, "nombre": "Americana","image": "6.png", "precio": 590, "cantidad": ""},
+    {"id": 7, "nombre": "Tomate y choclo","image": "7.png", "precio": 550, "cantidad": ""},
+    {"id": 8, "nombre": "Tomtate y hongos","image": "8.png", "precio": 620, "cantidad": ""},
+    {"id": 9, "nombre": "Salame, huevo y mortadela","image": "9.png", "precio": 640, "cantidad": ""},
+    {"id": 10, "nombre": "Panceta y tomate","image": "10.png", "precio": 730, "cantidad": ""},
+    {"id": 11, "nombre": "Mortadela y choclo","image": "11.png", "precio": 670, "cantidad": ""},
+    {"id": 12, "nombre": "Tomate y salame","image": "12.png", "precio": 670, "cantidad": ""},
+    {"id": 13, "nombre": "Panceta","image": "13.png", "precio": 600, "cantidad": ""},
+    {"id": 14, "nombre": "Panceta primavera","image": "14.png", "precio": 670, "cantidad": ""},
+    {"id": 15, "nombre": "Panceta y cantimpalo","image": "15.png", "precio": 690, "cantidad": ""}
     ]

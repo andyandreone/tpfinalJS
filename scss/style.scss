@@ -20,7 +20,7 @@ h1{
     border: 1px solid rgb(61, 56, 56);
     background-color: rgb(255, 255, 254);
     width: 180px;
-    height: 300px;
+    height: 320px;
     .nProducto{
         font-size: 10px;
     }
@@ -42,22 +42,50 @@ h1{
     }
 }
 
+.ticket{
+
+   
+}
 #compra{
     width: 100%;
-    background-color: rgb(134, 34, 34);
+    background-color: rgb(218, 218, 218);
     display: inline-block;
-    border: 1 px solid gray;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 3px;
-    margin: 20px 50px 20px 0;
+    margin: 20px 0px 20px 0;
     position: sticky;
     top: 20px;
     p{
         color:  rgb(104, 103, 103);
     }
+   
+   
+    .error{
+        color:red;
+        display: none;
+        font-size: 14px;
+        
+    }
     .ticket{
         width: 100%;
         input{
             margin: 10px 0;
+            width: 95%;
+            display: inline-block;
+        }
+        p{ 
+            font-weight: bold;
+            
+        }
+        label{
+            color:#5b504e;
+            
+            
+        }
+        
+        button{
+            margin-bottom: 30px;
         }
     }
   
