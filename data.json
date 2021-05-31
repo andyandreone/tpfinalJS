@@ -37,6 +37,6 @@
     {"id": 11, "nombre": "Mortadela y choclo","image": "11.png", "precio": 670, "cantidad": ""},
     {"id": 12, "nombre": "Tomate y salame","image": "12.png", "precio": 670, "cantidad": ""},
     {"id": 13, "nombre": "Panceta","image": "13.png", "precio": 600, "cantidad": ""},
-    {"id": 14, "nombre": "Panceta primavera","image": "14.png", "precio": 670, "cantidad": ""},
-    {"id": 15, "nombre": "Panceta y cantimpalo","image": "15.png", "precio": 690, "cantidad": ""}
+    {"id": 14, "nombre": "Panceta primavera","image": "14.png", "precio": 670, "cantidad": ""}
+ 
     ]

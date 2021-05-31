@@ -29,6 +29,7 @@ function cargarProductos(){
             }
             //LE SUMO UNA UNIDAD EN LA CANTIDAD Y LO ALMACENO EN EL SESSIONSTORAGE
             producto.cantidad ++;
+           
             sessionStorage.setItem("productos", JSON.stringify(storedProductos));
 
             //AGREGO EL PRODUCTO AL CARRITO Y LUEGO LO ALMACENO EN EL SESSIONSTORAGE
@@ -133,11 +134,22 @@ function cargarCarrito(operacion){
 
                             //Click el boton confirmar compra, se vacia el session storage y se deja mensaje de confirmacion
                             $('#confirmarCompra').click(()=>{
-                                
+
+                                //La informacion al enviar al backend
+                                console.log("nombre: " + nombre);
+                                console.log("direccion: " + direccion);
+                                let index =1;
+                                for(const producto of storedCarrito){
+                                    console.log(index +":"+ producto.nombre);
+                                    index++;
+                                }
+                                console.log("total: " + suma);
+
+                                //Vacio el sessionStorage
                                 sessionStorage.removeItem("carrito");
                                 sessionStorage.removeItem("productos");
-                                placeholderDireccionDefault = "";
-                                placeholderNameDefault = "";
+                                
+                                //Cargo la animacion y envio mensaje de confirmacion
                                 animarCompra();
                                 $('#compra').html("<p>Compra Confirmada, muchas gracias!. El pedido sera enviado a la brevedad.</p>");
                                 $('#compra').append('<div"><button id="realizarOtroPedido" class="btn btn-outline-success">Realizar otro pedido</button></div>');
@@ -170,6 +182,9 @@ function cargarCarrito(operacion){
                     sessionStorage.setItem("carrito", JSON.stringify(storedCarrito)); 
                     let storedProductos = JSON.parse(sessionStorage.getItem("productos"));    
                     storedProductos[producto.id].cantidad--;
+                    if(storedProductos[producto.id].cantidad==0){
+                        storedProductos[producto.id].cantidad="";
+                    }
                     sessionStorage.setItem("productos", JSON.stringify(storedProductos));
                     cargarCarrito();  
                     cargarProductos();

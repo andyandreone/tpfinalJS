@@ -17,4 +17,3 @@ $.get("../data.json", function(result, estado){
 
 
 
-

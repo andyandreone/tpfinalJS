@@ -29,14 +29,14 @@ h1 {
     font-weight: bold; }
   .producto .cantidad {
     color: green;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold; }
   .producto:hover {
     border: 2px solid gray; }
 
 #compra {
   width: 100%;
-  background-color: #dadada;
+  background-color: #f7f7f7;
   display: inline-block;
   border-style: solid;
   border-width: 2px;
